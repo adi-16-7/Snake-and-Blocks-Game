@@ -1,3 +1,6 @@
+//Mayank Rohilla	2017299
+//Aditya Gupta		2017325
+
 package model;
 
 import java.io.FileInputStream;
@@ -26,7 +29,7 @@ public class SnakeBlockButton extends Button{
 	
 	private void setButtonFont() {
 		try {
-			setFont(Font.loadFont(new FileInputStream(FONT_PATH), 23));
+			setFont(Font.loadFont(new FileInputStream(FONT_PATH), 17));
 		} catch (FileNotFoundException e){
 			setFont(Font.font("Verdana", 23));
 		}
